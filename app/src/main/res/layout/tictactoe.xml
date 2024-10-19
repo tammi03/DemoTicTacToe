@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/winnerPlayerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center">
+
+        <!-- 9 Buttons for Tic-Tac-Toe Grid -->
+        <Button
+            android:id="@+id/button_00"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_01"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_02"
+            style="@style/TicTacToeButton"/>
+
+        <Button
+            android:id="@+id/button_10"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_11"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_12"
+            style="@style/TicTacToeButton"/>
+
+        <Button
+            android:id="@+id/button_20"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_21"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/button_22"
+            style="@style/TicTacToeButton"/>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
