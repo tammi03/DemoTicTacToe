@@ -8,8 +8,9 @@ public enum Player {
         return this == X ? O : X;
     }
 }
+```
 
-**Board.java**
+### **Board.java**
 ```java
 public class Board {
     private Player[][] cells = new Player[3][3];
@@ -49,6 +50,7 @@ public class Board {
         currentTurn = Player.X;
     }
 }
+```
 
 **TicTacToeActivity.java**
 ```java
@@ -104,6 +106,7 @@ public class TicTacToeActivity extends AppCompatActivity {
         }
     }
 }
+```
 
 **styles.xml**
 ```xml
@@ -116,6 +119,7 @@ public class TicTacToeActivity extends AppCompatActivity {
         <item name="android:textSize">24sp</item>
     </style>
 </resources>
+```
 
 **tictactoe.xml**
 ```xml
