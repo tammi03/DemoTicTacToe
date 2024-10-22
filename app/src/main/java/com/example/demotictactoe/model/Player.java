@@ -1,4 +1,4 @@
-package com.example.demotictactoe;
+package com.example.demotictactoe.model;
 
 public enum Player {
     X, O;

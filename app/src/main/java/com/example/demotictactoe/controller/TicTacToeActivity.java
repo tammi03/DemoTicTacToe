@@ -1,4 +1,4 @@
-package com.example.demotictactoe;
+package com.example.demotictactoe.controller;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +7,10 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.demotictactoe.R;
+import com.example.demotictactoe.model.Board;
+import com.example.demotictactoe.model.Player;
 
 public class TicTacToeActivity extends AppCompatActivity {
 

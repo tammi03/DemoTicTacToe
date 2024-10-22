@@ -1,4 +1,4 @@
-package com.example.demotictactoe;
+package com.example.demotictactoe.model;
 
 public class Board {
     private Player[][] cells = new Player[3][3];
